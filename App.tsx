@@ -26,7 +26,7 @@ const App: React.FC = () => {
   // --- STATE ---
   const [isLoaded, setIsLoaded] = useState(false);
   const [language, setLanguage] = useState<Language>('es'); 
-  const [theme, setTheme] = useState<Theme>('light');
+  const [theme, setTheme] = useState<Theme>('dark');
   const [isAchievementModalOpen, setIsAchievementModalOpen] = useState(false);
   const [isHistoryModalOpen, setIsHistoryModalOpen] = useState(false);
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
